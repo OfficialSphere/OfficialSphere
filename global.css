@@ -1,22 +1,18 @@
-@media (min-width: 320px) { 
-:root {
-
-  box-sizing: border-box;
-  /* fonts */
-  --font-poppins: Poppins;
-  --font-nunito: Nunito;
-
-  /* font sizes */
-  --font-size-xs: 11px;
-  --font-size-sm: 12px;
-  --font-size-base: 13px;
-  --font-size-lg: 20px;
-
-  /* Colors */
-  --color-gray: #202125;
-  --color-lightsteelblue: #a7ccea;
-  --color-white: #fff;
-  --color-lightgray: #ccc;
-  --color-burlywood: #ecc47c;
- } 
+@media (max-width: 480px) { 
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-xs: 11px;
+    --font-size-sm: 12px;
+    --font-size-base: 13px;
+    --font-size-lg: 20px;
+  
+    /* Colors */
+    --color-lightsteelblue: #a7ccea;
+    --color-white: #fff;
+    --color-lightgray: #ccc;
+    --color-burlywood: #ecc47c;
+  }
 }
